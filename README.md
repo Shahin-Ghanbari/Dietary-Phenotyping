@@ -2,6 +2,8 @@
 
 An evaluation of how diet-only models behave across groups with different dietary patterns.
 
+![NHANES dietary recalls are used to identify dietary phenotypes. Diet-only models are compared across these groups for calibration and follow-up workload.](research-workflow.svg)
+
 *Phenotype-Aware Evaluation of Diet-Only Models for Cardiometabolic Burden and Follow-Up Workload*
 
 | | |
