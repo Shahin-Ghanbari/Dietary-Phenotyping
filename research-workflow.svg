@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="268" viewBox="0 0 800 268" role="img" aria-labelledby="title description">
 <title id="title">Evaluate models across dietary patterns</title>
-<desc id="description">NHANES dietary recalls are used to identify dietary phenotypes. Diet-only models are compared across these groups for calibration and follow-up workload.</desc>
+<desc id="description">Use NHANES dietary recalls to derive groups with k-means and compare prevalence, calibration and follow-up alerts across groups for six cardiometabolic outcomes.</desc>
 <style>
 text{font-family:Arial,Helvetica,sans-serif}.label{fill:#145c55;font-size:12px;font-weight:700;letter-spacing:1px}.heading{fill:#132c3a;font-size:30px;font-weight:700}.card{fill:#132c3a;font-size:15px;font-weight:700}.body{fill:#304d5a;font-size:14px}
 </style>
@@ -10,6 +10,6 @@ text{font-family:Arial,Helvetica,sans-serif}.label{fill:#145c55;font-size:12px;f
 <text x="32" y="77" class="heading">Evaluate models across dietary patterns</text>
 <g fill="none" stroke="#347c76" stroke-width="2" marker-end="url(#arrow)"><path d="M261 178H282"/><path d="M515 178H536"/></g>
 <g transform="translate(32 115)"><rect width="228" height="126" rx="12" fill="#dcefeb" stroke="#afc9c7"/><text x="16" y="26" class="label">01 / INPUTS</text><text x="16" y="56" class="card">NHANES recalls</text><text x="16" y="80" class="body">Represent dietary intake</text></g>
-<g transform="translate(286 115)"><rect width="228" height="126" rx="12" fill="#ffffff" stroke="#afc9c7"/><text x="16" y="26" class="label">02 / GROUPING</text><text x="16" y="56" class="card">Dietary phenotypes</text><text x="16" y="80" class="body">Group participants by</text><text x="16" y="98" class="body">dietary patterns</text></g>
-<g transform="translate(540 115)"><rect width="228" height="126" rx="12" fill="#ffffff" stroke="#afc9c7"/><text x="16" y="26" class="label">03 / EVALUATION</text><text x="16" y="56" class="card">Compare model behaviour</text><text x="16" y="80" class="body">Assess calibration and</text><text x="16" y="98" class="body">follow-up workload by group</text></g>
+<g transform="translate(286 115)"><rect width="228" height="126" rx="12" fill="#ffffff" stroke="#afc9c7"/><text x="16" y="26" class="label">02 / GROUPING</text><text x="16" y="56" class="card">Derive dietary patterns</text><text x="16" y="80" class="body">Group participants with</text><text x="16" y="98" class="body">k-means clustering</text></g>
+<g transform="translate(540 115)"><rect width="228" height="126" rx="12" fill="#ffffff" stroke="#afc9c7"/><text x="16" y="26" class="label">03 / EVALUATION</text><text x="16" y="56" class="card">Compare six outcomes</text><text x="16" y="80" class="body">Assess prevalence, calibration</text><text x="16" y="98" class="body">and follow-up alerts</text></g>
 </svg>
