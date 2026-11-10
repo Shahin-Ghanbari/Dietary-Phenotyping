@@ -2,7 +2,7 @@
 
 This study derives dietary-pattern groups and evaluates diet-only models across those groups for six cardiometabolic outcomes.
 
-![Use NHANES dietary recalls to derive groups with k-means and compare prevalence, calibration and follow-up alerts across groups for six cardiometabolic outcomes.](research-workflow.svg)
+![NHANES dietary features feed two parallel analyses. K-means derives dietary groups, and diet-only models estimate risk for six outcomes. The branches meet when prevalence, calibration and follow-up alerts are compared by dietary group.](research-workflow.svg)
 
 *Phenotype-Aware Evaluation of Diet-Only Models for Cardiometabolic Burden and Follow-Up Workload*
 
