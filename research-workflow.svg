@@ -1,15 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="268" viewBox="0 0 800 268" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="371" viewBox="0 0 800 371" role="img" aria-labelledby="title description">
 <title id="title">Evaluate models across dietary patterns</title>
-<desc id="description">Use NHANES dietary recalls to derive groups with k-means and compare prevalence, calibration and follow-up alerts across groups for six cardiometabolic outcomes.</desc>
+<desc id="description">NHANES dietary features feed two parallel analyses. K-means derives dietary groups, and diet-only models estimate risk for six outcomes. The branches meet when prevalence, calibration and follow-up alerts are compared by dietary group.</desc>
 <style>
 text{font-family:Arial,Helvetica,sans-serif}.label{fill:#145c55;font-size:12px;font-weight:700;letter-spacing:1px}.heading{fill:#132c3a;font-size:30px;font-weight:700}.card{fill:#132c3a;font-size:15px;font-weight:700}.body{fill:#304d5a;font-size:14px}
 </style>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#347c76"/></marker></defs>
-<rect x="1" y="1" width="798" height="266" rx="17" fill="#f3f8f8" stroke="#afc9c7"/>
+<rect x="1" y="1" width="798" height="369" rx="17" fill="#f3f8f8" stroke="#afc9c7"/>
 <text x="32" y="37" class="label">NHANES  /  DIETARY PHENOTYPES</text>
 <text x="32" y="77" class="heading">Evaluate models across dietary patterns</text>
-<g fill="none" stroke="#347c76" stroke-width="2" marker-end="url(#arrow)"><path d="M261 178H282"/><path d="M515 178H536"/></g>
-<g transform="translate(32 115)"><rect width="228" height="126" rx="12" fill="#dcefeb" stroke="#afc9c7"/><text x="16" y="26" class="label">01 / INPUTS</text><text x="16" y="56" class="card">NHANES recalls</text><text x="16" y="80" class="body">Represent dietary intake</text></g>
-<g transform="translate(286 115)"><rect width="228" height="126" rx="12" fill="#ffffff" stroke="#afc9c7"/><text x="16" y="26" class="label">02 / GROUPING</text><text x="16" y="56" class="card">Derive dietary patterns</text><text x="16" y="80" class="body">Group participants with</text><text x="16" y="98" class="body">k-means clustering</text></g>
-<g transform="translate(540 115)"><rect width="228" height="126" rx="12" fill="#ffffff" stroke="#afc9c7"/><text x="16" y="26" class="label">03 / EVALUATION</text><text x="16" y="56" class="card">Compare six outcomes</text><text x="16" y="80" class="body">Assess prevalence, calibration</text><text x="16" y="98" class="body">and follow-up alerts</text></g>
+<g fill="none" stroke="#347c76" stroke-width="2" marker-end="url(#arrow)"><path d="M199 221H221V160H244"/><path d="M199 221H221V284H244"/><path d="M481 160H508V207H535"/><path d="M481 284H508V235H535"/></g>
+<g transform="translate(32 169)">
+<rect width="165" height="106" rx="12" fill="#dcefeb" stroke="#afc9c7"/>
+<text x="16" y="25" class="label">DATA SOURCE</text>
+<text x="16" y="51" class="card">NHANES recalls</text>
+<text x="16" y="75" class="body">Dietary features</text>
+</g>
+<g transform="translate(248 107)">
+<rect width="231" height="106" rx="12" fill="#fff" stroke="#afc9c7"/>
+<text x="16" y="25" class="label">GROUPING</text>
+<text x="16" y="51" class="card">Derive dietary groups</text>
+<text x="16" y="75" class="body">Use k-means clustering</text>
+</g>
+<g transform="translate(248 231)">
+<rect width="231" height="106" rx="12" fill="#fff" stroke="#afc9c7"/>
+<text x="16" y="25" class="label">MODELLING</text>
+<text x="16" y="51" class="card">Fit diet-only models</text>
+<text x="16" y="75" class="body">Estimate risk for six outcomes</text>
+</g>
+<g transform="translate(539 151)">
+<rect width="229" height="143" rx="12" fill="#fff" stroke="#afc9c7"/>
+<text x="16" y="25" class="label">EVALUATION</text>
+<text x="16" y="51" class="card">Compare by dietary group</text>
+<text x="16" y="75" class="body">Observed prevalence,</text>
+<text x="16" y="93" class="body">calibration and alerts</text>
+<text x="16" y="111" class="body">under shared thresholds</text>
+</g>
 </svg>
