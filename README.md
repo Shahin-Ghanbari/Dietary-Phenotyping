@@ -12,4 +12,8 @@ This study derives dietary-pattern groups and evaluates diet-only models across 
 | **Data** | Adult NHANES dietary recall data. The six outcomes are diabetes, hypertension, obesity, a simplified metabolic syndrome proxy, hyperlipidaemia and cardiovascular disease. |
 | **Method** | Derive groups using k-means and compare diet-only models. Assess observed prevalence, calibration and follow-up alerts across groups under shared thresholds. |
 
+## What you can explore
+
+The workflow diagram shows how dietary-pattern groups are derived and how models are evaluated across them.
+
 [Back to the research portfolio](https://github.com/Shahin-Ghanbari#featured-research)
